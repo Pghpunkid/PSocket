@@ -1,0 +1,19 @@
+﻿Build started 7/12/2014 10:57:35 AM.
+     1>Project "E:\FPG\SA-MP Server\PSocket\PSocket\PSocket\PSocket.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PSOCKET_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(157): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : see declaration of 'strtok'
+     1>main.cpp(349): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>main.cpp(350): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>main.cpp(423): warning C4101: 'ret' : unreferenced local variable
+     1>main.cpp(440): warning C4101: 'ret' : unreferenced local variable
+     1>main.cpp(457): warning C4101: 'ret' : unreferenced local variable
+     1>Done Building Project "E:\FPG\SA-MP Server\PSocket\PSocket\PSocket\PSocket.vcxproj" (ClCompile target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18

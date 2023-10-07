@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\SDK\amxplugin.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\amx\getch.c">
+      <Filter>SDK\amx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{cc615d29-0e9b-4882-955d-59e54f3b8698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\amx">
+      <UniqueIdentifier>{cde8754d-46d4-43d8-823a-f3f5eaacb01d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SDK\plugincommon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\plugin.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\amx\amx.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\amx\getch.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\amx\sclinux.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.def" />
+  </ItemGroup>
+</Project>
